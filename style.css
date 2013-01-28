@@ -1,0 +1,96 @@
+/*Semi-custom CSS, Ribbon Source: http://www.red-team-design.com/cool-headings-with-pseudo-elements.*/
+
+body {
+    width: 60%;
+	margin: 50px auto;
+	padding: 15px;
+	position: relative; /*needed for heading4 rule*/
+	z-index: 0; /* again, just for heading4 rule*/		
+	border: 7px solid #cecece;
+	border: 7px solid rgba(0,0,0,.05);
+    background-color: #fff;
+	background-image: url("subtle_dots.png");
+	background-clip: padding-box;
+	box-shadow: 0 0 2px rgba(0, 0, 0, .5);
+    font-family: 'Electrolize', sans-serif; font-weight: 400;
+    
+}
+
+a       { color: black; font-weight: 400; }
+a:hover { color: #CC0033; }
+
+#footer {
+    top: 15px;
+}
+
+#title{
+	font-size: 44px;
+    padding: 0px;
+}
+
+
+.headline{
+  position: relative;
+  margin-left: -22px; /* 15px padding + 7px border ribbon shadow*/
+  margin-right: -22px;
+  padding: 15px;
+  background: #e5e5e5;
+  background: -moz-linear-gradient(#f5f5f5, #e5e5e5);
+  background: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#e5e5e5));
+  background: -webkit-linear-gradient(#f5f5f5, #e5e5e5);
+  background: -o-linear-gradient(#f5f5f5, #e5e5e5);
+  background: -ms-linear-gradient(#f5f5f5, #e5e5e5);
+  background: linear-gradient(#f5f5f5, #e5e5e5);
+  -webkit-box-shadow: 0 -1px 0 rgba(255,255,255,.8) inset;
+  -moz-box-shadow: 0 -1px 0 rgba(255,255,255,.8) inset;
+  box-shadow: 0 -1px 0 rgba(255,255,255,.8) inset;
+  text-shadow: 0 1px 0 #fff;
+}
+
+.headline:before, .headline:after{
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  content:'';
+  border-top: 6px solid #555;
+  border-left: 6px solid transparent;
+}
+
+.headline:before{
+  border-top: 6px solid #555;
+  border-right: 6px solid transparent;
+  border-left: none;
+  left: auto;
+  right: 0;
+  bottom: -6px;
+}
+
+div.wrapper{
+	float:left; /* important */
+	position:relative; /* important(so we can absolutely position the description div */
+}
+div.description{
+	position:absolute; /* absolute position (so we can position it where we want)*/
+	bottom:0px; /* position will be on bottom */
+	left:0px;
+	width:98%;
+	/* styling bellow */
+	background-color:black;
+	font-size:12px;
+	padding:1%;
+	color:white;
+	opacity:0.8; /* transparency */
+	filter:alpha(opacity=80); /* IE transparency */
+}
+p.description_content{
+	padding:10px;
+	margin:0px;
+}
+
+/* this adds a double border to the images */
+img {
+   padding:6px;
+   border:1px solid #e5e5e5;
+   background-color:#ffffff;
+}
+
