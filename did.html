@@ -2,37 +2,36 @@
 <!-- Helpful example from: http://dhtmlexamples.com/2011/04/15/getting-started-with-handlebars-js-templating-language-in-javascript/ -->
 <html>
 <head>
-    <title>Max Richman's Data Meanderings</title>
+    <title>datahh: do-good data dabbling</title>
     <link rel="stylesheet" href="style.css" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Electrolize' rel='stylesheet' type='text/css'>
-</head>
-<body>
-
-    <div id="handlebarsPlaceholder">This will get replaced by handlebars.js</div> 
     <script type="text/javascript" src="did.js"></script>
     <script type="text/javascript" src="Handlebars.js"></script>
+</head>
+<body>
+    <div id="json"><a class="button"  href="did.js">{'format':'json'}</a> 
+    <div id="body">
     <script id="didTemplate" type="text/x-handlebars-template"/>
-    <div id="title"><a style="text-decoration:none" href='/'>{{property}}</a></div>{{tag-line}}
-<h2 class="headline"><a href="doing.html">doing</a> - <a href="did.html">did</a></h2>
-        {{#each did}}
-    <div class='wrapper'>
-        <img src="{{img2}}" height="{{factor}}"/> <br> <br>
-        <div class='description'>
+
+        <div id="title"><a style="text-decoration:none" href='did.html'>{{property}}</a></div>{{tag-line}}
+        <h2 class="headline"><a href="doing.html">doing</a> - <a href="did.html">did</a></h2>
+            {{#each did}}
+        <div class='wrapper'> 
+           <a href="{{url}}" target="_blank" > <img src="{{img2}}" height="{{factor}}"></a>
+          <div class='description'>
             <p class='description-content'><h4>{{projectName}}</h4>
             {{projectDescription}}
             </p>
+          </div>
         </div>
-    </div>
-        {{/each}}
-    </script>
- 
+            {{/each}}
+    </script></div>
     <script type="text/javascript">
     //<![CDATA[
         var src = document.getElementById("didTemplate").innerHTML;
         var tmpl = Handlebars.compile(src);
-        document.getElementById("handlebarsPlaceholder").innerHTML = tmpl(json);
+        document.getElementById("body").innerHTML = tmpl(json);
     //]]>
     </script>
-Copyright 2013 by <a href="http://www.linkedin.com/in/maxrichman">Max Richman</a>
 </body>
 </html>
