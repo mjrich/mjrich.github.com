@@ -1,7 +1,7 @@
 json = {
 "name":"Max Richman",
 "property":"datahh",
-"tag-line":"data products for international development",
+"tag-line":"putting the ahh in data for developmentt",
 "url1":"https://twitter.com/richmanmax",
 "url1-name":"Twitter",
 "url2":"https://github.com/mjrich",
@@ -19,8 +19,8 @@ json = {
             "factor":400,
             "show":true,
             "url":"http://transition.usaid.gov/our_work/cross-cutting_programs/transition_initiatives/aboutoti.html",
-            "img1":"http://datahh.org/images/oti450.jpg",
-            "img2":"http://datahh.org/images/oti450a.jpg"
+            "img1":"images/oti450.jpg",
+            "img2":"images/oti450a.jpg"
             },
             {
             "id":2,
@@ -30,8 +30,8 @@ json = {
             "factor":300,
             "show":true,
             "url":"http://aseanpostnargiskm.org/",
-            "img1":"http://datahh.org/images/asean450.jpg",
-            "img2":"http://datahh.org/images/asean450b.jpg"
+            "img1":"images/asean450.jpg",
+            "img2":"images/asean450b.jpg"
             },
             {
             "id":3,
@@ -41,8 +41,8 @@ json = {
             "factor":200,
             "show":true,
             "url":"http://dl.dropbox.com/u/15148850/Richman%20MSc%20SRM%20Dissertation%202011-08-19.pdf",
-            "img1":"http://datahh.org/images/msc450.jpg",
-            "img2":"http://datahh.org/images/msc450b.jpg"
+            "img1":"images/msc450.jpg",
+            "img2":"images/msc450b.jpg"
             },
             {
             "id":4,
@@ -52,8 +52,8 @@ json = {
             "factor":200,
             "show":true,
             "url":"http://www.dcactionforchildren.org/kids-count/dc-kids-count-data-tools",
-            "img1":"datakindwork.png",
-            "img2":"datakindmap.png"
+            "img1":"images/datakindwork.png",
+            "img2":"images/datakindmap.png"
             },
 
         ]
