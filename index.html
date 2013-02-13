@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">	
+	
+	<head>		
+		
+		<meta charset="utf-8">
+		<title>max richman</title>
+		
+		<link rel="stylesheet" href="style.css" />
+		<link href='http://fonts.googleapis.com/css?family=Electrolize' rel='stylesheet' type='text/css'>
+   		<script type="text/javascript" src="did.js"/></script>
+   		<script type="text/javascript" src="Handlebars.js"/></script>
+		
+		<script type="text/javascript">
+
+ 		 var _gaq = _gaq || [];
+ 		 _gaq.push(['_setAccount', 'UA-29021627-1']);
+ 		 _gaq.push(['_trackPageview']);
+
+ 		 (function() {
+  		  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  		  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+   		 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  		})();
+
+		</script>
+		
+	        
+		
+	</head>
+	
+	<body>	
+		<div id="wrap">	
+			
+			<div id="header">
+			
+				<h1><a href="">datahh</a></h1>
+				<h2>putting the ahh in data for development</h2>
+			
+			</div><!--end header-->
+			
+
+			
+			<div class="line"></div>
+			<h4><b>Hey, I'm Max.<br><br>I'm into geo, impact, epistemology, APIs, & avocados.<br>Below are some projects of mine.<br><br> <a target="_blank"  href="did.js">{This site is data-driven. Click here for the json}</a></b></h4>
+			
+			<div id="frontpage">
+			
+					<h3>Featured Projects</h3>
+			            	<div class="line"></div>    	
+        		<div id="featured-projects">
+
+			<script id="didTemplate" type="text/x-handlebars-template">
+    
+           		 {{#each did}}
+ 			<a href="{{url}}" style="display:block" target="_blank" > 
+       			 <div class='wrapper'>
+        		  <img src="{{img1}}" height="{{factor}}">
+        		  <div class='description'>
+         		   <div class='description-content'><h4>{{projectName}}</h4>
+         		   {{projectDescription}}
+        		   </div>
+         		  </div>
+       			 </div>
+			</a>
+            		 {{/each}}
+   			</script>
+   			<script type="text/javascript">
+   			 //<![CDATA[
+       			 var src = document.getElementById("didTemplate").innerHTML;
+        		 var tmpl = Handlebars.compile(src);
+        		 document.getElementById("featured-projects").innerHTML = tmpl(json);
+   			 //]]>
+   			</script>
+
+					
+										
+			          
+
+	
+	            </div><!--end featured-projects--> 
+	                      	
+            	<div class="line"></div>            	
+            	
+            	<div id="content">  
+            	
+        			<div id="services">            
+            			<h4>Elsewhere on the web</h4>              
+                		
+                		<div class="service">               
+                			<div class="frontpage-small-img-bg">
+            					<a href="https://twitter.com/richmanmax" target="_blank"><img src="twitter.png" alt="" /></a>
+            				</div><!--end post-frontpage-img-bg-->
+             
+                		</div><!--end service-->               
+            
+                		<div class="service">               
+                			<div class="frontpage-small-img-bg">
+            					<a href="https://github.com/mjrich" target="_blank"><img src="octocat.png" alt="" /></a>
+            				</div><!--end post-frontpage-img-bg-->
+              
+                		</div><!--end service-->  
+           
+                		<div class="service">               
+                			<div class="frontpage-small-img-bg">
+            					<a href="https://scraperwiki.com/profiles/mjrich/" target="_blank"><img src="scraperwiki.png" alt="" /></a>
+            				</div><!--end post-frontpage-img-bg-->
+            
+                		</div><!--end service-->     
+                		<div class="service">               
+                			<div class="frontpage-small-img-bg">
+            					<a href="http://www.linkedin.com/in/maxrichman" target="_blank"><img src="linkedin.png" alt="" /></a>
+            				</div><!--end post-frontpage-img-bg-->
+            
+                		</div><!--end service-->    						
+                	</div><!--end services--> 
+                           
+            		<div class="vertical-line"></div> 
+                       
+		            <div id="contact">            
+		            	<h4>Get in touch</h4>                              
+		
+		                <div class="contact">               
+		                    maxrichman at gmail punto com <br> <br>
+				<a class="twitter-timeline" href="https://twitter.com/richmanmax" data-widget-id="287990301325393920">Tweets by @richmanmax</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+					            
+		                </div><!--end contact-->           
+		                                         	            
+		            </div><!--end contact-->       		        
+		        </div><!--end content-->  						
+			<div class="line"></div>
+			</br>
+			<h2>putting the ahh in data for development</h2>
+			
+			</div><!--end frontpage-->
+			
+			<div id="footer">			
+            	<div class="line"></div>
+				<p class="copyright">Copyright &copy; 2013 / Max Richman / <a href="https://github.com/mjrich/datahh-json-website" target="_blank">Website Source</a>
+			</div><!--end footer-->
+		
+		</div><!--end wrap-->	
+	</body>	
+</html>
