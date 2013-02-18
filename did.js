@@ -1,7 +1,7 @@
 json = {
 "name":"Max Richman",
 "property":"datahh",
-"tag-line":"putting the ahh in data for developmentt",
+"tag-line":"putting the ahh in data for development",
 "url1":"https://twitter.com/richmanmax",
 "url1-name":"Twitter",
 "url2":"https://github.com/mjrich",

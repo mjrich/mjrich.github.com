@@ -7,7 +7,7 @@ Template based on Sanura by Chris Creed
 /* -- Tools -- */
 /*-------------*/
 .line { clear: both; background: url(images/line.png) no-repeat; height: 2px; }
-.vertical-line { float: left; background: url(images/vertical-line.jpg) no-repeat; width: 2px; height: 333px; margin-top: 38px; }
+.vertical-line { float: left; background: url(images/vertical-line.jpg) no-repeat; width: 2px; height: 115px; margin-left: 115px; margin-top: 38px; }
 .grey { color: #999999; }
 .cache-images { visibility: hidden; }
 
@@ -39,7 +39,7 @@ p { margin: 0 0 15px 0; }
 /*-----------------*/
 /* -- Frontpage -- */
 /*-----------------*/
-#frontpage { float: left; margin: 48px 0 -8px -5px; }
+#frontpage { float: left; width: 960px; margin: 48px 0 -8px -5px; }
 #frontpage .featured-text { margin: 0 0 40px 0; }
 #frontpage h3 { font-size: 32px; color: #444; margin: 50px 0 30px 0; letter-spacing: -1px; }
 #frontpage #featured-projects { margin: 0 0 40px 0; }
@@ -48,7 +48,7 @@ p { margin: 0 0 15px 0; }
 #frontpage #services { float: left; margin: 36px 32px 0 0; font-size: 12px; }
 #frontpage #services h4 { font-size: 28px; color: #444; margin: 10px 0 35px 0; letter-spacing: -1px; }
 #frontpage #services .service { clear: both; width: 430px; margin: 0 0 0 0; height: 80px; }
-#frontpage #services .service img { height:50px; float: left; margin: 2px 0 0 2px; }
+#frontpage #services .service img { height:50px; float: left; margin: 2px 0 0 2px; padding:5px; }
 #frontpage #services .service p { margin: 2px 0 0 0; }
 
 #frontpage #contact { float: left; margin: 36px 0 0 50px; font-size: 12px; }
@@ -57,7 +57,6 @@ p { margin: 0 0 15px 0; }
 #frontpage #contact .contact img { float: left; margin: 2px 0 0 2px; width: 56px; height: 56px; }
 #frontpage #contact .contact a { font-size: 14px; margin: 0 0 0 0; }
 
-.frontpage-small-img-bg { float: left; width: 66px; height: 66px; margin: 4px 15px 0 0; }
 
 
 /*--------------*/
