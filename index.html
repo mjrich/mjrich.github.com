@@ -24,6 +24,19 @@
    		 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   		})();
 
+		function fisherYates ( myArray ) {
+ 		 var i = myArray.length, j, tempi, tempj;
+  		if ( i == 0 ) return false;
+ 		 while ( --i ) {
+   		  j = Math.floor( Math.random() * ( i + 1 ) );
+   		  tempi = myArray[i];
+   		  tempj = myArray[j];
+   		  myArray[i] = tempj;
+    		 myArray[j] = tempi;
+ 		  }
+ 		return myArray;
+		};
+
 		</script>
 		
 	        
@@ -54,10 +67,10 @@
 
 			<script id="didTemplate" type="text/x-handlebars-template">
     
-           		 {{#each did}}
+           		 {{#each .}}
  			<a href="{{url}}" style="display:block" target="_blank" > 
        			 <div class='wrapper'>
-        		  <img src="{{img2}}" height="{{factor}}">
+        		  <img src="{{randomImage imgs}}" height="{{factor}}">
         		  <div class='description'>
          		   <div class='description-content'><h4>{{projectName}}</h4>
          		   {{projectDescription}}
@@ -69,9 +82,13 @@
    			</script>
    			<script type="text/javascript">
    			 //<![CDATA[
-       			 var src = document.getElementById("didTemplate").innerHTML;
+			Handlebars.registerHelper("randomImage", function(imgs) {
+			randomNum = Math.round(Math.random()+1).toString();
+			selectedImage = imgs[randomNum];	
+ 			 return selectedImage; });      			 
+			 var src = document.getElementById("didTemplate").innerHTML;
         		 var tmpl = Handlebars.compile(src);
-        		 document.getElementById("featured-projects").innerHTML = tmpl(json);
+        		 document.getElementById("featured-projects").innerHTML = tmpl(fisherYates(json['did']));
    			 //]]>
    			</script>
 
