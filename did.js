@@ -63,7 +63,7 @@ json = {
             },
             {
             "id":6,
-            "projectName":"SunOne - Brazillian Deforestation Estimation",
+            "projectName":"SunOne - Brazilian Deforestation Estimation",
             "projectDescription":"Analyzed and built time series visual for REDD+ proposal",
             "duration":1,
             "factor":250,
@@ -84,7 +84,7 @@ json = {
 	    {
             "id":8,
             "projectName":"InterMedia - Tanzania Mobile Money Tracker",
-            "projectDescription":"Calculated Grameen PPI poverty index, divised first segmentation, QCed reports, and created maps",
+            "projectDescription":"Calculated Grameen PPI poverty index, devised first segmentation, QCed reports, and created maps",
             "duration":4,
             "factor":250,
             "show":true,
