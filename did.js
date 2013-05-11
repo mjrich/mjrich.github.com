@@ -1,7 +1,7 @@
 json = {
 "name":"Max Richman",
-"property":"datahh",
-"tag-line":"putting the ahh in data for development",
+"property":"richmanmax",
+"tag-line":"developing data goods for social good",
 "url1":"https://twitter.com/richmanmax",
 "url1-name":"Twitter",
 "url2":"https://github.com/mjrich",
@@ -74,7 +74,7 @@ json = {
 	    {
             "id":7,
             "projectName":"ScraperWiki - Journalist Data Camp DC",
-            "projectDescription":"Working with AU wunderkind Zach, scraped Maryland school scores PDFs",
+            "projectDescription":"Working with wunderkind Zach, scraped Maryland school scores PDFs",
             "duration":1,
             "factor":250,
             "show":true,
@@ -121,6 +121,17 @@ json = {
             "url":"http://www.pbs.org/idealab/2012/12/ecohack-highlights-sewage-pedal-power-cotton-candy353.html",
             "imgs":{"1":"images/ecohack1.jpg","2":"images/ecohack2.jpg"}
             },
+	    {
+            "id":12,
+            "projectName":"DataKind - Volunteer World Bank Data Dive Ambassador",
+            "projectDescription":"Led team of 15 scraping world food prices data",
+            "duration":2,
+            "factor":250,
+            "show":true,
+            "url":"http://blogs.worldbank.org/opendata/datadive-qa-data-ambassadors-tackling-poverty-technology",
+            "imgs":{"1":"images/wbdd1.png","2":"images/wbdd2.png"}
+            },
+
 
 
            
