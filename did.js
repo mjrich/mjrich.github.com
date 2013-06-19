@@ -136,7 +136,7 @@ json = {
             "projectName":"IADB - GIS Training, cartography, and web mapping",
             "projectDescription":"Provided GIS training for 3 researchers and cartography on minority populations in Latin America",
             "duration":2,
-            "factor":250,
+            "factor":100,
             "show":true,
             "url":"http://geocommons.com/maps/259473",
             "imgs":{"1":"images/iadb1.jpg","2":"images/iadb2.png"}
