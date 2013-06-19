@@ -131,6 +131,16 @@ json = {
             "url":"http://blogs.worldbank.org/opendata/datadive-qa-data-ambassadors-tackling-poverty-technology",
             "imgs":{"1":"images/wbdd1.png","2":"images/wbdd2.png"}
             },
+	    {
+            "id":13,
+            "projectName":"IADB - GIS Training, cartography, and web mapping",
+            "projectDescription":"Provided GIS training for 3 researchers and cartography on minority populations in Latin America",
+            "duration":2,
+            "factor":250,
+            "show":true,
+            "url":"http://geocommons.com/maps/259473",
+            "imgs":{"1":"images/iadb1.gif","2":"images/iadb2.png"}
+            }
 
 
 
