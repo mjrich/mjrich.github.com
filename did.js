@@ -139,7 +139,7 @@ json = {
             "factor":250,
             "show":true,
             "url":"http://geocommons.com/maps/259473",
-            "imgs":{"1":"images/iadb1.gif","2":"images/iadb2.png"}
+            "imgs":{"1":"images/iadb1.jpg","2":"images/iadb2.png"}
             }
 
 
