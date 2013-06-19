@@ -133,7 +133,7 @@ json = {
             },
 	    {
             "id":13,
-            "projectName":"IADB - GIS Training, cartography, and web mapping",
+            "projectName":"IDB - GIS Training, cartography, and web mapping",
             "projectDescription":"Provided GIS training for 3 researchers and cartography on minority populations in Latin America",
             "duration":2,
             "factor":100,
