@@ -98,7 +98,7 @@ json = {
             "duration":2,
             "factor":250,
             "show":true,
-            "url":"https://geopoll.net/content/assessment-international-remittances-africa-tunisia-pilot",
+            "url":"http://research.geopoll.com/#case_studies/1",
             "imgs":{"1":"images/geopoll1.jpg","2":"images/geopoll2.png"}
             },
 	    {
