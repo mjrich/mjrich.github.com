@@ -18,7 +18,7 @@ json = {
             "duration":48,
             "factor":250,
             "show":true,
-            "url":"http://transition.usaid.gov/our_work/cross-cutting_programs/transition_initiatives/aboutoti.html",
+            "url":"http://www.usaid.gov/who-we-are/organization/bureaus/bureau-democracy-conflict-and-humanitarian-assistance/office-1",
             "imgs":{"1":"images/oti450.jpg","2":"images/oti450a.jpg"}
             },
             {
@@ -58,7 +58,7 @@ json = {
             "duration":2,
             "factor":250,
             "show":true,
-            "url":"http://www.fundforpeace.org/tc/images/Publications/east_africa_report.pdf",
+            "url":"http://www.fmwg.org/sitefiles/grossman-vermaas_minimizing_threat_convergence_risks_june10.pdf",
             "imgs":{"1":"images/horn450.jpg","2":"images/horn450a.jpg"}
             },
             {
