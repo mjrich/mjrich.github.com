@@ -124,7 +124,7 @@ json = {
 	    {
             "id":12,
             "projectName":"GeoPoll/USAID-DCA - Nigeria SMS Survey",
-            "projectDescription":"Access to Finance for Nigerian Agriculture-related Businesses,
+            "projectDescription":"Access to Finance for Nigerian Agriculture-related Businesses",
             "duration":2,
             "factor":250,
             "show":true,
