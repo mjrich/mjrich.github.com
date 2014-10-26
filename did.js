@@ -98,11 +98,7 @@ json = {
             "duration":2,
             "factor":250,
             "show":true,
-<<<<<<< HEAD
-            "url":"http://research.geopoll.com/#case_studies/1",
-=======
             "url":"http://research.geopoll.com/international-remittances-tunisia",
->>>>>>> gh-pages
             "imgs":{"1":"images/geopoll1.jpg","2":"images/geopoll2.png"}
             },
 	    {
