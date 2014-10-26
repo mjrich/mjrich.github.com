@@ -28,7 +28,7 @@ json = {
             "duration":4,
             "factor":250,
             "show":true,
-            "url":"http://aseanpostnargiskm.org/",
+            "url":"https://s3.amazonaws.com/webapps.esri.com/esri-proceedings/feduc11/papers/user/immap_esri_feduc_pr_presentation_jan_2011.pdf",
             "imgs":{"1":"images/asean450.jpg","2":"images/asean450b.jpg"}
             },
             {
@@ -48,7 +48,7 @@ json = {
             "duration":7,
             "factor":250,
             "show":true,
-            "url":"http://www.dcactionforchildren.org/kids-count/dc-kids-count-data-tools",
+            "url":"http://www.datakind.org/mapping-poverty-to-beat-it/",
             "imgs":{"1":"images/datakindwork.png","2":"images/datakindmap.png"}
             },
             {
@@ -98,7 +98,11 @@ json = {
             "duration":2,
             "factor":250,
             "show":true,
+<<<<<<< HEAD
             "url":"http://research.geopoll.com/#case_studies/1",
+=======
+            "url":"http://research.geopoll.com/international-remittances-tunisia",
+>>>>>>> gh-pages
             "imgs":{"1":"images/geopoll1.jpg","2":"images/geopoll2.png"}
             },
 	    {
@@ -113,16 +117,6 @@ json = {
             },
 	    {
             "id":11,
-            "projectName":"EcoHack3 - Bugs, Bikes, and Wetlands",
-            "projectDescription":"Made network images of bugs w/ @gephi, maps of wetland developments w/ @mapbox, & DC @bikeshare stats w/ R",
-            "duration":2,
-            "factor":250,
-            "show":true,
-            "url":"http://www.pbs.org/idealab/2012/12/ecohack-highlights-sewage-pedal-power-cotton-candy353.html",
-            "imgs":{"1":"images/ecohack1.jpg","2":"images/ecohack2.jpg"}
-            },
-	    {
-            "id":12,
             "projectName":"DataKind - Volunteer World Bank Data Dive Ambassador",
             "projectDescription":"Led team of 15 scraping world food prices data",
             "duration":2,
@@ -130,6 +124,16 @@ json = {
             "show":true,
             "url":"http://blogs.worldbank.org/opendata/datadive-qa-data-ambassadors-tackling-poverty-technology",
             "imgs":{"1":"images/wbdd1.png","2":"images/wbdd2.png"}
+            },
+	    {
+            "id":12,
+            "projectName":"GeoPoll/USAID-DCA - Nigeria SMS Survey",
+            "projectDescription":"Access to Finance for Nigerian Agriculture-related Businesses",
+            "duration":2,
+            "factor":250,
+            "show":true,
+            "url":"http://research.geopoll.com/access-to-finance-nigeria-case-study",
+            "imgs":{"1":"images/geopoll1.jpg","2":"images/geopoll3.jpg"}
             },
 	    {
             "id":13,
@@ -141,7 +145,6 @@ json = {
             "url":"http://geocommons.com/maps/259473",
             "imgs":{"1":"images/iadb1.jpg","2":"images/iadb2.png"}
             }
-
 
 
            
