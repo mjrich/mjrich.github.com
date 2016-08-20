@@ -88,7 +88,7 @@ json = {
             "duration":4,
             "factor":250,
             "show":true,
-            "url":"http://www.audiencescapes.org/country-profiles/tanzania/tanzania/tanzania-681",
+            "url":"http://www.intermedia.org/tracking-mobile-money-use-and-agent-performance-in-tanzania/",
             "imgs":{"1":"images/tmmt1.png","2":"images/tmmt2.png"}
             },
 	    {
