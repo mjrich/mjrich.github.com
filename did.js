@@ -92,16 +92,6 @@ json = {
             "imgs":{"1":"images/tmmt1.png","2":"images/tmmt2.png"}
             },
 	    {
-            "id":9,
-            "projectName":"GeoPoll/InterMedia - Tunisia SMS Survey Pilot",
-            "projectDescription":"Questionnaire design, analyzed results with R",
-            "duration":2,
-            "factor":250,
-            "show":true,
-            "url":"http://research.geopoll.com/international-remittances-tunisia",
-            "imgs":{"1":"images/geopoll1.jpg","2":"images/geopoll2.png"}
-            },
-	    {
             "id":10,
             "projectName":"UNICEF - Myanmar Child Friendly Schools Report",
             "projectDescription":"With colleague Cole, cleaned and analyzed over 200 indicators of school performance in Myanmar with Stata",
@@ -128,7 +118,7 @@ json = {
             "duration":2,
             "factor":250,
             "show":true,
-            "url":"http://research.geopoll.com/access-to-finance-nigeria-case-study",
+            "url":"https://research.geopoll.com/case-studies/access-to-finance-nigeria-case-study.html",
             "imgs":{"1":"images/geopoll1.jpg","2":"images/geopoll3.jpg"}
             },
 	    {
