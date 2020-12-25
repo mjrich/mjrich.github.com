@@ -18,7 +18,7 @@ json = {
             "duration":48,
             "factor":250,
             "show":true,
-            "url":"http://www.usaid.gov/who-we-are/organization/bureaus/bureau-democracy-conflict-and-humanitarian-assistance/office-1",
+            "url":"https://www.usaid.gov/stabilization-and-transitions/where-we-work",
             "imgs":{"1":"images/oti450.jpg","2":"images/oti450a.jpg"}
             },
             {
@@ -38,7 +38,7 @@ json = {
             "duration":12,
             "factor":250,
             "show":true,
-            "url":"http://dl.dropbox.com/u/15148850/Richman%20MSc%20SRM%20Dissertation%202011-08-19.pdf",
+            "url":"https://www.dropbox.com/s/dr30i4gx3jty2br/Richman%20MSc%20SRM%20Dissertation%202011-08-19.pdf?dl=0",
             "imgs":{"1":"images/msc450.jpg","2":"images/msc450b.jpg"}
             },
 	    {
@@ -58,7 +58,7 @@ json = {
             "duration":2,
             "factor":250,
             "show":true,
-            "url":"http://www.fmwg.org/sitefiles/grossman-vermaas_minimizing_threat_convergence_risks_june10.pdf",
+            "url":"",
             "imgs":{"1":"images/horn450.jpg","2":"images/horn450a.jpg"}
             },
             {
@@ -78,17 +78,17 @@ json = {
             "duration":1,
             "factor":250,
             "show":true,
-            "url":"http://www.american.edu/americantoday/campus-news/20120420-SOC-Partners-with-Washington-Post-for-ScraperWiki-Event.cfm",
+            "url":"",
             "imgs":{"1":"images/jdcdc1.jpg","2":"images/jdcdc2.png"}
             },
 	    {
             "id":8,
-            "projectName":"InterMedia - Tanzania Mobile Money Tracker",
+            "projectName":"InterMedia - Financial Inclusion Analysis",
             "projectDescription":"Calculated Grameen PPI poverty index, devised first segmentation, QCed reports, and created maps",
             "duration":4,
             "factor":250,
             "show":true,
-            "url":"http://www.intermedia.org/tracking-mobile-money-use-and-agent-performance-in-tanzania/",
+            "url":"http://finclusion.org/uploads/file/reports/FII-Tanzania-Wave-One-Survey-QuickSights-Report.pdf",
             "imgs":{"1":"images/tmmt1.png","2":"images/tmmt2.png"}
             },
 	    {
