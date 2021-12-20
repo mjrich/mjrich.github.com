@@ -88,7 +88,7 @@ json = {
             "duration":4,
             "factor":250,
             "show":true,
-            "url":"http://finclusion.org/uploads/file/reports/FII-Tanzania-Wave-One-Survey-QuickSights-Report.pdf",
+            "url":"https://www.dropbox.com/s/6m7fvv0alf4dtx8/InterMedia_Tanzania_Mobile_Money.pdf",
             "imgs":{"1":"images/tmmt1.png","2":"images/tmmt2.png"}
             },
 	    {
